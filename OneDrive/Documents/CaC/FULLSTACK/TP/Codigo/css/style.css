@@ -109,19 +109,17 @@ body {
     margin: 0 auto;
     display: grid;
     overflow: hidden;
-    padding: 60px 0px ;
+    padding: 60px 0px;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 
 }
 
-
-
 .plan-preview-tarjeta {
 
     min-width: 200px;
-    flex:350px;
+    flex: 350px;
     height: 300px;
 
 }
@@ -132,7 +130,7 @@ body {
     height: 100%;
     max-width: 400px;
     object-fit: cover;
-        
+
 }
 
 .btn-planes a {
@@ -146,4 +144,19 @@ body {
     border-radius: 5px;
     margin-top: 5px;
     width: 200px;
+}
+
+.contenido-zonaentregas {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.zonas {
+    margin-bottom: 30px;
+}
+
+.zonas h3 {
+    margin: 10px;
 }
