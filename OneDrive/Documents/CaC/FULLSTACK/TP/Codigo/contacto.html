@@ -28,19 +28,32 @@
         </nav>
     </header>
     <div class="contenido-contacto">
-        <div>
-            <p> <a href="#">Contáctanos</a> para recibir viandas saludables o dietéticas en la comodidad de tu hogar</p>
+        <div class="grid-area1">
+            <p> <a href="tel:+541122223333">Contáctanos</a> para recibir viandas saludables o dietéticas en la comodidad
+                de tu hogar</p>
+            <!-- Es un numero de contacto ficticio -->
         </div>
-        <div>
-            <p>Conoce las instalaciones de Vianda Exprés en <a href="#">nuestra dirección</a>.</p>
+        <div class="grid-area2">
+            <p>Conoce la ubicación de Vianda Exprés haciendo click <a href="https://maps.app.goo.gl/Tkfv1dnxaFsyf3zB7">
+                    aquí</a>.</p>
+            <!-- Es una direccion ficticia -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1181.351675038668!2d-58.458941055173476!3d-34.5650665263845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d6a2361e0b%3A0x61864c4e183c6177!2sMoldes%2C%20C1428%20CRD%2C%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1697146645546!5m2!1sen!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <form action="submit">
+        <form action="submit" class="grid-area3">
             <p>¿Deseas conocer más sobre nuestros planes?<br>
-                Deja tus datos y nos comunicaremos a la brevedad</p>
-            <label for="Nombre">Nombre</label><input name="Nombre" id="Nombre" type="text"
-                placeholder="Escribe tu nombre...">
-            <label for="Email">Email</label><input type="email" name="Email" id="Email"
-                placeholder="example@example.com">
+                Escribinos y nos comunicaremos a la brevedad.</p>
+            <label for="Nombre">Nombre</label><br>
+            <input name="Nombre" id="Nombre" type="text" placeholder="Escribe tu nombre..."><br>
+            <label for="Email">Email</label><br>
+            <input type="email" name="Email" id="Email" placeholder="example@example.com"><br>
+            <label for="Asunto">Asunto</label><br>
+            <input type="text" name="Asunto" id="Asunto"><br>
+            <label for="Comentario">Comentario</label><br>
+            <textarea name="Comentario" id="Comentario" cols="30" rows="10"></textarea><br>
+            <button type="submit" class="btn-enviar">Enviar</button>
 
         </form>
     </div>

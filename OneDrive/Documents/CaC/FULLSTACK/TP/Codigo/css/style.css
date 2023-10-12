@@ -160,3 +160,59 @@ body {
 .zonas h3 {
     margin: 10px;
 }
+
+.grid-area1 {
+    grid-area: texto1;
+}
+
+.grid-area2 {
+    grid-area: texto2;
+}
+
+.grid-area3 {
+    grid-area: formulario;
+}
+
+.contenido-contacto {
+    display: grid;
+    margin: 50px;
+    row-gap: 30px;
+    column-gap: 40px;
+    grid-template-areas: 'texto1 formulario'
+        'texto2 formulario'
+        'texto2 formulario';
+}
+
+form {
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    min-width: 350px;
+}
+
+form input,
+textarea {
+    width: 100%;
+}
+
+form input,
+textarea,
+p {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+form p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.grid-area2 iframe {
+    margin-top: 20px;
+}
+
+.btn-enviar {
+    padding: 5px 10px;
+    margin-left: 80%;
+}
