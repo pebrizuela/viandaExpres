@@ -6,16 +6,15 @@
 header {
     background-color: #5C8C3D;
     width: 100%;
+    height: auto;
     padding: 30px 0;
     /* background-image: url(/images/background-image.jpg); */
-    background-size: 100%;
-    background-repeat: no-repeat;
 
 }
 
 .header-contenido h1 {
-        font-family: 'Dancing Script', cursive;
-        font-size: 4em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
 }
 
 a {
@@ -74,23 +73,20 @@ body {
 }
 
 .header-logo {
-
-    color: black;
-    font-size: larger;
-    position: absolute;
-    top: 3;
-    left:0;
-
+    position: relative;
+    height: 80%;
+    margin: 1em;
+    top: 0;
+    left: 0;
 }
-
-
 
 #logo {
     max-height: 120px;
-    padding-left: 10px;
+    padding-left: 1em;
 }
+
 .navbar-menulist {
-        margin-right: 15px;
+    margin-right: 1em;
 
 }
 
