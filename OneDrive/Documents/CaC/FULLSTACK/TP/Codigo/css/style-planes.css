@@ -1,3 +1,10 @@
+.contenido-planes {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 4rem;
+}
+
 .plan1 {
     margin: 2rem;
     margin-bottom: 4rem;
