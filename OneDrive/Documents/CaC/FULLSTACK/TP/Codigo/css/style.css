@@ -32,28 +32,20 @@ footer {
     width: 100%;
     background-color: #5C8C3D;
     color: black;
-    margin-top: auto;
     padding: 20px 0;
+    text-align: center;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 0.5fr 2.5fr 0.5fr;
+.footer-icon {
+    display: flex;
+    flex-flow: row nowrap;
 }
 
-.grid-item {
-    padding: auto 0;
-    margin: auto 10px;
-
-}
-
-.footer-menu ul {
-    list-style-type: none;
-
-}
-
-.footer-menu a {
+.footer-icon a {
     text-decoration: none;
+}
+
+.footer-icons i {
     color: black;
 }
 
@@ -159,6 +151,7 @@ body {
     margin-top: 5px;
     width: 200px;
 }
+
 .aboutus-div {
     width: 90%;
     margin: 0 auto;
@@ -183,6 +176,7 @@ body {
     padding: 20px;
 
 }
+
 .contenido-aboutus {
 
     min-width: 200px;
