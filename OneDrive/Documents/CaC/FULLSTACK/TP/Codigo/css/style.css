@@ -218,15 +218,27 @@ body {
     grid-area: texto1;
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-wrap: pretty;
+}
+
+.grid-area1 a {
+    font-size: 20px;
 }
 
 .grid-area2 {
     grid-area: texto2;
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.grid-area2 a {
+    font-size: 16px;
 }
 
 .grid-area3 {
+    margin: 0 2rem;
     grid-area: formulario;
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -240,6 +252,8 @@ body {
     grid-template-areas: 'texto1 formulario'
         'texto2 formulario'
         'texto2 formulario';
+    justify-content: center;
+    align-items: center;
 }
 
 form {
