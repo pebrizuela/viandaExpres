@@ -12,10 +12,12 @@
 }
 
 .plan-flex {
+    width: 100%;
     display: flex;
-    flex-flow: 1 0 100%;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
+    /* flex-wrap: nowrap; */
 
 }
 
