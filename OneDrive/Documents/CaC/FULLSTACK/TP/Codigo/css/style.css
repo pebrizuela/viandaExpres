@@ -226,7 +226,12 @@ body {
     padding: 5px 10px;
     border-color: #f9f7f7;
     border-radius: 40px;
+    transition: ease 0.3s;
+}
+
+.zonas:hover {
     box-shadow: 4px 8px 10px 0px #a09f9f;
+    transform: translateY(1);
 }
 
 .zonas iframe {
@@ -378,7 +383,7 @@ form i {
 }
 
 .error {
-    font-size: 14.5px;
+    font-size: 12px;
     margin-bottom: 16px;
 }
 

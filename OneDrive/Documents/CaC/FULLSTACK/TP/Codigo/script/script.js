@@ -25,12 +25,14 @@ Formulario.addEventListener("submit", (e) => {
 let validacion = (id, num, mensaje) => {
     if (id.value.trim() === "") {
         mensajeError[num].innerHTML = mensaje;
+        mensajeError[num].style.opacity = '1';
         id.style.border = "2px solid red";
         iconoFailure[num].style.opacity = '1';
         iconoSuccess[num].style.opacity = '0';
 
     } else {
         mensajeError[num].innerHTML = "";
+        mensajeError[num].style.opacity = '0';
         id.style.border = "2px solid green";
         iconoFailure[num].style.opacity = "0";
         iconoSuccess[num].style.opacity = "1";
