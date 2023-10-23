@@ -31,7 +31,7 @@
                         Home</a>
                     <a href="./aboutus.html" target="_self"><i class="fa-solid fa-bowl-food"></i> Quienes somos</a>
                     <a href="./planes.html" target="_self"><i class="fa-solid fa-bowl-food"></i> Planes</a>
-                    <a href="./sucursales.html" target="_self"><i class="fa-solid fa-bowl-food"></i> Zonas de
+                    <a href="./zonaEntregas.html" target="_self"><i class="fa-solid fa-bowl-food"></i> Zonas de
                         entrega</a>
                     <a href="./contacto.html" target="_self"><i class="fa-solid fa-bowl-food"></i> Contacto</a>
                 </div>
@@ -55,24 +55,46 @@
                 width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <form action="submit" class="grid-area3">
+        <form id="form" action="submit" class="grid-area3">
             <p>¿Deseas conocer más sobre nuestros planes?<br>
                 Escribinos y nos comunicaremos a la brevedad.</p>
             <label for="Nombre">Nombre</label><br>
-            <input name="Nombre" id="Nombre" type="text" placeholder="Escribe tu nombre..."><br>
+            <input name="Nombre" id="Nombre" type="text" placeholder="Escribe tu nombre...">
+
+            <i class="fas fa-exclamation-circle iconoFailure"></i>
+            <i class="far fa-check-circle iconoSuccess"></i>
+            <div class="error"></div>
+
             <label for="Email">Email</label><br>
-            <input type="email" name="Email" id="Email" placeholder="example@example.com"><br>
+            <input type="email" name="Email" id="Email" placeholder="example@example.com">
+
+            <i class="fas fa-exclamation-circle iconoFailure"></i>
+            <i class="far fa-check-circle iconoSuccess"></i>
+            <div class="error"></div>
+
             <label for="Asunto">Asunto</label><br>
-            <input type="text" name="Asunto" id="Asunto"><br>
+            <input type="text" name="Asunto" id="Asunto" placeholder="Ingrese el asunto...">
+
+            <i class="fas fa-exclamation-circle iconoFailure"></i>
+            <i class="far fa-check-circle iconoSuccess"></i>
+            <div class="error"></div>
+
             <label for="Comentario">Comentario</label><br>
-            <textarea name="Comentario" id="Comentario" cols="30" rows="10"></textarea><br>
+            <textarea name="Comentario" id="Comentario" cols="30" rows="10"
+                placeholder="Deje su comentario o consulta..."></textarea>
+
+            <i class="fas fa-exclamation-circle iconoFailure"></i>
+            <i class="far fa-check-circle iconoSuccess"></i>
+            <div class="error"></div>
+
             <button type="submit" class="btn-enviar">Enviar</button>
 
         </form>
     </div>
 
-    <a href="https://wa.me/541136071400?text=Me%20gustaría%20más%20info%20de%20los%20planes" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-    
+    <a href="https://wa.me/541136071400?text=Me%20gustaría%20más%20info%20de%20los%20planes" class="whatsapp"
+        target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+
     <footer>
         <div class="footer-icons">
             <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -83,6 +105,8 @@
             <p>Derechos Reservados @2023</p>
         </div>
     </footer>
+
 </body>
+<script src="./script/script.js"></script>
 
 </html>

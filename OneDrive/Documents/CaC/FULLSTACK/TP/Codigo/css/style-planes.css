@@ -90,7 +90,7 @@ body {
     background-color: rgb(253, 209, 95);
     padding: 2rem;
     margin: 4rem 0 2rem;
-    /* max-width: 100vh; */
+    border-radius: 10px;
 }
 
 .dishes {
